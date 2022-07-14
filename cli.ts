@@ -209,7 +209,8 @@ function getArgument(args: string[], name1: string, name2: string) {
 const help = () => {
 	console.log(`Usage:
 ytdl -h | --help -> Show this help message
-ytdl -v | --version -> Show the version of ytdl-core
+ytdl -v | --version -> Show the version of ytdl
+ytdl -i | --info <url> -> Get the info of the video specified
 ytdl -da | --download-audio <url> [options] -> Download the audio of the url
 ytdl -dv | --download-video <url> [options] -> Download the video of the url
 
@@ -221,7 +222,7 @@ Options:
 (async () => {
 	const [, , mode, url, ...args] = process.argv;
 
-	const VERSION = "1.2.1";
+	const VERSION = "1.2.2";
 
 	const output = getArgument(args, "-o", "--output");
 	const format = getArgument(args, "-f", "--format");

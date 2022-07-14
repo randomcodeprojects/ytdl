@@ -1,6 +1,5 @@
 {
 	"name": "ytdl",
-	"version": "1.0.0",
 	"description": "",
 	"bin": "dist/cli.js",
 	"main": "dist/cli.js",
