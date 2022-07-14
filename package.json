@@ -1,0 +1,19 @@
+{
+	"name": "ytdl",
+	"version": "1.0.0",
+	"description": "",
+	"bin": "dist/cli.js",
+	"main": "dist/cli.js",
+	"devDependencies": {
+		"@types/ffmpeg-static": "^3.0.1",
+		"@types/node": "^18.0.0",
+		"typescript": "^4.7.4"
+	},
+	"dependencies": {
+		"ffmpeg-static": "^5.0.0",
+		"log-update": "^5.0.1",
+		"sanitize-filename": "^1.6.3",
+		"ytdl-core": "^4.11.0"
+	},
+	"type": "module"
+}
